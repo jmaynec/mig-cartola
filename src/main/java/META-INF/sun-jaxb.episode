@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.10.24 a las 10:06:09 AM CLST 
+
+  -->
+      
+    <bindings xmlns:tns="http://docs.oasis-open.org/ns/cmis/messaging/200908/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.principal.migracion.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:deleteTreeResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteTreeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisFaultType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisFaultType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRepositories">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRepositories"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisExtensionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisExtensionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRepositoriesResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRepositoriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisRepositoryEntryType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisRepositoryEntryType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRepositoryInfo">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRepositoryInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRepositoryInfoResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRepositoryInfoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeChildren">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeChildren"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeChildrenResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeChildrenResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeDefinitionListType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeDefinitionListType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeDescendants">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeDescendants"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeDescendantsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeDescendantsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeContainer">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeContainer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeDefinition">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeDefinition"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTypeDefinitionResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetTypeDefinitionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getDescendants">
+                  
+            <class ref="com.principal.migracion.wsdl.GetDescendants"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getDescendantsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetDescendantsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectInFolderContainerType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectInFolderContainerType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getFolderTree">
+                  
+            <class ref="com.principal.migracion.wsdl.GetFolderTree"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getFolderTreeResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetFolderTreeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getChildren">
+                  
+            <class ref="com.principal.migracion.wsdl.GetChildren"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getChildrenResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetChildrenResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectInFolderListType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectInFolderListType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getFolderParent">
+                  
+            <class ref="com.principal.migracion.wsdl.GetFolderParent"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getFolderParentResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetFolderParentResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectParents">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectParents"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectParentsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectParentsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectParentsType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectParentsType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRenditions">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRenditions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getRenditionsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetRenditionsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getCheckedOutDocs">
+                  
+            <class ref="com.principal.migracion.wsdl.GetCheckedOutDocs"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getCheckedOutDocsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetCheckedOutDocsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectListType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectListType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createDocument">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateDocument"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisContentStreamType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisContentStreamType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createDocumentResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateDocumentResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createDocumentFromSource">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateDocumentFromSource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createDocumentFromSourceResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateDocumentFromSourceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createFolder">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateFolder"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createFolderResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateFolderResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createRelationship">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateRelationship"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createRelationshipResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CreateRelationshipResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createPolicy">
+                  
+            <class ref="com.principal.migracion.wsdl.CreatePolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:createPolicyResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CreatePolicyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAllowableActions">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAllowableActions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAllowableActionsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAllowableActionsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getProperties">
+                  
+            <class ref="com.principal.migracion.wsdl.GetProperties"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getPropertiesResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetPropertiesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObject">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectByPath">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectByPath"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectByPathResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectByPathResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContentStream">
+                  
+            <class ref="com.principal.migracion.wsdl.GetContentStream"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContentStreamResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetContentStreamResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateProperties">
+                  
+            <class ref="com.principal.migracion.wsdl.UpdateProperties"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updatePropertiesResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.UpdatePropertiesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:moveObject">
+                  
+            <class ref="com.principal.migracion.wsdl.MoveObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:moveObjectResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.MoveObjectResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteObject">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteObjectResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteObjectResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteTree">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteTree"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:setContentStream">
+                  
+            <class ref="com.principal.migracion.wsdl.SetContentStream"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:setContentStreamResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.SetContentStreamResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteContentStream">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteContentStream"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:deleteContentStreamResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.DeleteContentStreamResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:addObjectToFolder">
+                  
+            <class ref="com.principal.migracion.wsdl.AddObjectToFolder"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:addObjectToFolderResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.AddObjectToFolderResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:removeObjectFromFolder">
+                  
+            <class ref="com.principal.migracion.wsdl.RemoveObjectFromFolder"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:removeObjectFromFolderResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.RemoveObjectFromFolderResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:query">
+                  
+            <class ref="com.principal.migracion.wsdl.Query"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:queryResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.QueryResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContentChanges">
+                  
+            <class ref="com.principal.migracion.wsdl.GetContentChanges"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContentChangesResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetContentChangesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:checkOut">
+                  
+            <class ref="com.principal.migracion.wsdl.CheckOut"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:checkOutResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CheckOutResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:cancelCheckOut">
+                  
+            <class ref="com.principal.migracion.wsdl.CancelCheckOut"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:cancelCheckOutResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CancelCheckOutResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:checkIn">
+                  
+            <class ref="com.principal.migracion.wsdl.CheckIn"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:checkInResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.CheckInResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getPropertiesOfLatestVersion">
+                  
+            <class ref="com.principal.migracion.wsdl.GetPropertiesOfLatestVersion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getPropertiesOfLatestVersionResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetPropertiesOfLatestVersionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectOfLatestVersion">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectOfLatestVersion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectOfLatestVersionResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectOfLatestVersionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAllVersions">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAllVersions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAllVersionsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAllVersionsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectRelationships">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectRelationships"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getObjectRelationshipsResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetObjectRelationshipsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:applyPolicy">
+                  
+            <class ref="com.principal.migracion.wsdl.ApplyPolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:applyPolicyResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.ApplyPolicyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:removePolicy">
+                  
+            <class ref="com.principal.migracion.wsdl.RemovePolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:removePolicyResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.RemovePolicyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAppliedPolicies">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAppliedPolicies"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getAppliedPoliciesResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetAppliedPoliciesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getACL">
+                  
+            <class ref="com.principal.migracion.wsdl.GetACL"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getACLResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.GetACLResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisACLType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisACLType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:applyACL">
+                  
+            <class ref="com.principal.migracion.wsdl.ApplyACL"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:applyACLResponse">
+                  
+            <class ref="com.principal.migracion.wsdl.ApplyACLResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectInFolderType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectInFolderType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumServiceException">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumServiceException"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://docs.oasis-open.org/ns/cmis/core/200908/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.principal.migracion.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisAllowableActionsType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisAllowableActionsType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisQueryType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisQueryType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisAccessControlListType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisAccessControlListType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisObjectType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisObjectType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertiesType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertiesType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisProperty">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisProperty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyBoolean">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyBoolean"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyId">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyId"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyInteger">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyDateTime">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyDateTime"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyDecimal">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyDecimal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyHtml">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyHtml"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyString">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyUri">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyUri"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoice">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceBoolean">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceBoolean"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceId">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceId"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceInteger">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceDateTime">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceDateTime"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceDecimal">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceDecimal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceHtml">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceHtml"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceString">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChoiceUri">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChoiceUri"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisListOfIdsType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisListOfIdsType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyBooleanDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyBooleanDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyIdDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyIdDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyIntegerDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyIntegerDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyDateTimeDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyDateTimeDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyDecimalDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyDecimalDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyHtmlDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyHtmlDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyStringDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyStringDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPropertyUriDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPropertyUriDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeDocumentDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeDocumentDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeFolderDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeFolderDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypeRelationshipDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypeRelationshipDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisTypePolicyDefinitionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisTypePolicyDefinitionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisRepositoryInfoType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisRepositoryInfoType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisRepositoryCapabilitiesType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisRepositoryCapabilitiesType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisChangeEventType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisChangeEventType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPermissionDefinition">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPermissionDefinition"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisPermissionMapping">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisPermissionMapping"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisAccessControlPrincipalType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisAccessControlPrincipalType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisAccessControlEntryType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisAccessControlEntryType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisACLCapabilityType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisACLCapabilityType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cmisRenditionType">
+                  
+            <class ref="com.principal.migracion.wsdl.CmisRenditionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumContentStreamAllowed">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumContentStreamAllowed"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCardinality">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCardinality"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumUpdatability">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumUpdatability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumDateTimeResolution">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumDateTimeResolution"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertyType">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertyType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumBaseObjectTypeIds">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumBaseObjectTypeIds"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityQuery">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityJoin">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityJoin"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityContentStreamUpdates">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityContentStreamUpdates"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumVersioningState">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumVersioningState"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumUnfileObject">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumUnfileObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumRelationshipDirection">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumRelationshipDirection"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumIncludeRelationships">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumIncludeRelationships"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertiesBase">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertiesBase"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertiesDocument">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertiesDocument"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertiesFolder">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertiesFolder"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertiesRelationship">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertiesRelationship"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumPropertiesPolicy">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumPropertiesPolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumTypeOfChanges">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumTypeOfChanges"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityChanges">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityChanges"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumACLPropagation">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumACLPropagation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityACL">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityACL"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumBasicPermissions">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumBasicPermissions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumAllowableActionsKey">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumAllowableActionsKey"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumUsers">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumUsers"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumSupportedPermissions">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumSupportedPermissions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumCapabilityRendition">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumCapabilityRendition"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enumRenditionKind">
+                  
+            <typesafeEnumClass ref="com.principal.migracion.wsdl.EnumRenditionKind"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
